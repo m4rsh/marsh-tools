@@ -58,7 +58,7 @@ then
     # ask user, if files found shall be deleted
     if [[ "$answer" = "y" || "$answer" = "Y" ]] 
     then
-       echo "Cleaning directory form follwing files:"; echo
+       echo "Cleaning directory from follwing files:"; echo
        for file in $FILES
        do
           rm $file && echo "$file is deleted!"; echo
